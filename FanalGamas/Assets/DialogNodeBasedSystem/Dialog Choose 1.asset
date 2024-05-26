@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8705819208441359274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 494.4001
+    y: 102.60016
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: First sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 4936782135289953885}
+  childNode: {fileID: -7841181008643086002}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &-8455854530336412942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2008.801
+    y: 656.2001
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Last sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &-7841181008643086002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 734.8001
+    y: 147.20012
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Next to first sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: -8705819208441359274}
+  childNode: {fileID: 4411136173186865135}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &-6005459696232394752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 733.8001
+    y: 418.2002
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Next to third sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 8776957959574132249}
+  childNode: {fileID: 4411136173186865135}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &-5184584624021453599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 494
+    y: 265.80023
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 1
+  sentence:
+    characterName: cherrydev
+    text: vvvv
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 4936782135289953885}
+  childNode: {fileID: 4978805031079437192}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &-2790696347262530497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 21.200089
+    y: 325.2002
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Hello, this is Dialog Node Based System
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 4936782135289953885}
+  isExternalFunc: 1
+  externalFunctionName: Test
+  standartHeight: 135
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Dialog Choose 1
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -2790696347262530497}
+  - {fileID: -8705819208441359274}
+  - {fileID: -5184584624021453599}
+  - {fileID: 8776957959574132249}
+  - {fileID: 3563645847101711405}
+  - {fileID: -7841181008643086002}
+  - {fileID: 4978805031079437192}
+  - {fileID: -6005459696232394752}
+  - {fileID: 548517801765535934}
+  - {fileID: -8455854530336412942}
+  - {fileID: 1175716626248544139}
+  - {fileID: 4936782135289953885}
+  - {fileID: 4411136173186865135}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &548517801765535934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 740.8001
+    y: 563.19934
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Next to fourth sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 3563645847101711405}
+  childNode: {fileID: 4411136173186865135}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &1175716626248544139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1263.0007
+    y: 295.20026
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Last sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 4411136173186865135}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &3563645847101711405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 504.8001
+    y: 570.19934
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: 5555
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 4936782135289953885}
+  childNode: {fileID: 548517801765535934}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &4411136173186865135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 992.20026
+    y: 301.40024
+    width: 190
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - End dialog
+  parentSentenceNode: {fileID: 548517801765535934}
+  childSentenceNodes:
+  - {fileID: 1175716626248544139}
+--- !u!114 &4936782135289953885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1717f3c6dba9fa40844ddacac301510, type: 3}
+  m_Name: Answer Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 243.80008
+    y: 318.2002
+    width: 190
+    height: 115
+  isDragging: 0
+  isSelected: 0
+  answers:
+  - Go to first sentence
+  - Go to second sentence
+  - Go to third sentence
+  - Go to fourth sentence
+  - 5555
+  parentSentenceNode: {fileID: 0}
+  childSentenceNodes:
+  - {fileID: -8705819208441359274}
+  - {fileID: -5184584624021453599}
+  - {fileID: 8776957959574132249}
+  - {fileID: 3563645847101711405}
+  - {fileID: 3563645847101711405}
+--- !u!114 &4978805031079437192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 736.8001
+    y: 280.20026
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Next to second sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: -5184584624021453599}
+  childNode: {fileID: 4411136173186865135}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135
+--- !u!114 &8776957959574132249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 501.8001
+    y: 412.20026
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: cherrydev
+    text: Third sentence
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 4936782135289953885}
+  childNode: {fileID: -6005459696232394752}
+  isExternalFunc: 0
+  externalFunctionName: 
+  standartHeight: 135

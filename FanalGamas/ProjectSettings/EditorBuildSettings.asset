@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Choose a character.unity
+    guid: facdedd8c1eba2b4bbdfddeac956f9d8
+  - enabled: 1
+    path: Assets/Scenes/Map/00_Level Selection.unity
+    guid: 482d397f949d4374aa83152655a89c6b
+  - enabled: 1
+    path: Assets/Scenes/Map/01_Level 01.unity
+    guid: b734324e633374081aa2588128d44bc6
+  - enabled: 1
+    path: Assets/Scenes/controHero.unity
+    guid: e22c15b43cc40f248b87b3c8c63e38cb
+  - enabled: 1
+    path: Assets/Scenes/Map/02_Level 02.unity
+    guid: 1a6d85d5dd51f42b1b8d534971b60933
+  - enabled: 1
+    path: Assets/Scenes/Map/03_Level 03.unity
+    guid: 91094a6ef5e4843fa90ea140a140dac4
+  m_configObjects: {}
