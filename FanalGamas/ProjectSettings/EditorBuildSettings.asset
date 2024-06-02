@@ -18,6 +18,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Map/01_Level 01.unity
     guid: b734324e633374081aa2588128d44bc6
   - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/Menu.unity
+    guid: 082544417d24f694dbd2688ff6102c3e
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/1_GreenHills.unity
+    guid: b12b8445ae11fe44799ae54e3961ab19
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/2_NightForest.unity
+    guid: 396865169b7f3a14386e8a74392c3bc6
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/3_SnowyMountains.unity
+    guid: 4729ea42f36b8a4438aea4c90dc85f9e
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/4_MoonLake.unity
+    guid: 39c46a5bce34dd945bdfb9b80b00e764
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall_01/5_CrimsonDesert.unity
+    guid: 23aa0e4ecb977e748941183c20da1f73
+  - enabled: 1
     path: Assets/Scenes/controHero.unity
     guid: e22c15b43cc40f248b87b3c8c63e38cb
   - enabled: 1
