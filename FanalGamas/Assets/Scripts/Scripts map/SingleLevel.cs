@@ -8,6 +8,7 @@ public class SingleLevel : MonoBehaviour
 {
     private int currentStarsNum = 0;
     public int levelIndex;
+    public string sceneName; // Added missing semicolon
 
     private Dictionary<int, int> levelData = new Dictionary<int, int>(); // Store level data in memory
 
@@ -19,28 +20,12 @@ public class SingleLevel : MonoBehaviour
         LoadLevelData();
     }
 
-    public void BackButton()
-    {
-        SceneManager.LoadScene("00_Level Selection");
-    }
-
     public void PressStarsButton(int _starsNum)
     {
         currentStarsNum = _starsNum;
 
-        // Check if levelIndex already exists in the file
-        if (!levelData.ContainsKey(levelIndex))
-        {
-            // If levelIndex doesn't exist, or if currentStarsNum is greater than the existing value, update PlayerPrefs and write to file
-            if (currentStarsNum > PlayerPrefs.GetInt("Lv" + levelIndex))
-            {
-                PlayerPrefs.SetInt("Lv" + levelIndex, currentStarsNum);
-                string newData = levelIndex.ToString() + "|" + currentStarsNum.ToString();
-                AppendDataToFile(newData);
-                levelData[levelIndex] = currentStarsNum; // Update levelData in memory
-            }
-        }
-        else
+        // Check if levelIndex already exists in the dictionary
+        if (levelData.ContainsKey(levelIndex))
         {
             // If levelIndex exists, retrieve the existing currentStarsNum
             int existingStarsNum = levelData[levelIndex];
@@ -52,10 +37,19 @@ public class SingleLevel : MonoBehaviour
                 levelData[levelIndex] = currentStarsNum; // Update levelData in memory
             }
         }
+        else
+        {
+            // If levelIndex doesn't exist, update PlayerPrefs and write to file
+            PlayerPrefs.SetInt("Lv" + levelIndex, currentStarsNum);
+            string newData = levelIndex.ToString() + "|" + currentStarsNum.ToString();
+            AppendDataToFile(newData);
+            levelData[levelIndex] = currentStarsNum; // Update levelData in memory
+        }
 
         Debug.Log("Level: " + levelIndex + ", Stars: " + currentStarsNum);
 
-        BackButton();
+        // Load the next scene
+        SceneManager.LoadSceneAsync(sceneName);
     }
 
     private void LoadLevelData()

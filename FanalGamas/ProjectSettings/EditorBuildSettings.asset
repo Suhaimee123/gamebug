@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Main/Main Menu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Choose a character.unity
+    path: Assets/Scenes/Main/Choose a character.unity
     guid: facdedd8c1eba2b4bbdfddeac956f9d8
   - enabled: 1
     path: Assets/Scenes/Map/00_Level Selection.unity
@@ -18,30 +18,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Map/01_Level 01.unity
     guid: b734324e633374081aa2588128d44bc6
   - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/Menu.unity
-    guid: 082544417d24f694dbd2688ff6102c3e
-  - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/1_GreenHills.unity
-    guid: b12b8445ae11fe44799ae54e3961ab19
-  - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/2_NightForest.unity
-    guid: 396865169b7f3a14386e8a74392c3bc6
-  - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/3_SnowyMountains.unity
-    guid: 4729ea42f36b8a4438aea4c90dc85f9e
-  - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/4_MoonLake.unity
-    guid: 39c46a5bce34dd945bdfb9b80b00e764
-  - enabled: 1
-    path: Assets/Scenes/Map/mapsmall_01/5_CrimsonDesert.unity
-    guid: 23aa0e4ecb977e748941183c20da1f73
-  - enabled: 1
-    path: Assets/Scenes/controHero.unity
-    guid: e22c15b43cc40f248b87b3c8c63e38cb
-  - enabled: 1
     path: Assets/Scenes/Map/02_Level 02.unity
     guid: 1a6d85d5dd51f42b1b8d534971b60933
   - enabled: 1
     path: Assets/Scenes/Map/03_Level 03.unity
     guid: 91094a6ef5e4843fa90ea140a140dac4
+  - enabled: 1
+    path: Assets/Scenes/Map/04_Level 04.unity
+    guid: db1937030f5e8415f9800d9d4063349e
+  - enabled: 1
+    path: Assets/Scenes/Map/05_Level 05.unity
+    guid: e1f9c92c0f3604c6c8df74c28aa093cf
+  - enabled: 1
+    path: Assets/Scenes/Map/06_Level 06.unity
+    guid: d781d4d9e0b744886be6439e200da1c7
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/00_Level Selection 1.unity
+    guid: b614c22f8fc57b84a921fcb8a3a40814
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/07_Level 07.unity
+    guid: 5409abf755e1b4f80b29edbc455cf404
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/08_Level 08.unity
+    guid: 2f30a6fa664454b9e80c44d1bc24f2f7
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/09_Level 09.unity
+    guid: 9f675728678a04a9bb9349cf074dbc1a
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/10_Level 10.unity
+    guid: dfb4e02dcfe91430f920e01039f03930
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/11_Level 11.unity
+    guid: eb6259d4d6f7c46a895739deaff3b5a3
+  - enabled: 1
+    path: Assets/Scenes/Map/mapsmall/12_Level 12.unity
+    guid: 24a93d707e942422fb757d405487ed76
   m_configObjects: {}

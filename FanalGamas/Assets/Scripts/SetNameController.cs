@@ -5,7 +5,9 @@ using TMPro;
 using System.IO;
 
 public class SetNameController : MonoBehaviour
+
 {
+    
     public GameObject Recheck; // Reference to your GameObject in the Unity Editor
     public TMP_InputField userInputField;
     public TMP_Text userName;

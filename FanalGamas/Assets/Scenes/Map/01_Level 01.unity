@@ -925,6 +925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelIndex: 1
+  sceneName: 00_Level Selection
 --- !u!1 &1141834277
 GameObject:
   m_ObjectHideFlags: 0
