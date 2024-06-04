@@ -5,15 +5,17 @@ using TMPro;
 
 public class LoadCharacter : MonoBehaviour
 {
-	public GameObject[] characterPrefabs;
-	public Transform spawnPoint;
-	public TMP_Text label;
+    public GameObject[] characterPrefabs;
+    public Transform spawnPoint;
+    public TMP_Text label;
+    
+    public static GameObject activeCharacter; // Add this line
 
-	void Start()
-	{
-		int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
-		GameObject prefab = characterPrefabs[selectedCharacter];
-		GameObject clone = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
-		label.text = prefab.name;
-	}
+    void Start()
+    {
+        int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
+        GameObject prefab = characterPrefabs[selectedCharacter];
+        activeCharacter = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
+        label.text = prefab.name;
+    }
 }

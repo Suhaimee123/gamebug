@@ -2,22 +2,18 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    [SerializeField] private Transform player;  // Transform ของตัวละครที่จะให้กล้องติดตาม
-    [SerializeField] private Vector3 offset;    // ระยะห่างระหว่างกล้องและตัวละคร
-    [SerializeField] private float smoothSpeed = 0.125f; // ความเร็วในการตาม
+    public Vector3 offset; // The offset distance between the camera and the target
+    public float smoothSpeed = 0.125f; // The speed of the camera's smooth follow
 
-    private void LateUpdate()
+    void LateUpdate()
     {
-        // คำนวณตำแหน่งที่ต้องการของกล้อง
-        Vector3 desiredPosition = player.position + offset;
-        
-        // เคลื่อนที่กล้องไปยังตำแหน่งที่ต้องการด้วยความเร็วที่กำหนด
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        
-        // ตั้งค่าตำแหน่งของกล้อง
-        transform.position = smoothedPosition;
+        if (LoadCharacter.activeCharacter != null)
+        {
+            Vector3 desiredPosition = LoadCharacter.activeCharacter.transform.position + offset;
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+            transform.position = smoothedPosition;
 
-        // ตั้งค่าให้กล้องหันไปทางตัวละคร
-        transform.LookAt(player);
+            transform.LookAt(LoadCharacter.activeCharacter.transform);
+        }
     }
 }
