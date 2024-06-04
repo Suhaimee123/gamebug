@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Vector3 offset; // The offset distance between the camera and the target
+    public Vector3 offset = new Vector3(-5.44f, 6.57f, -14.7f); // The offset distance between the camera and the target
     public float smoothSpeed = 0.125f; // The speed of the camera's smooth follow
 
     void LateUpdate()
